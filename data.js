@@ -81,10 +81,3 @@ var movieData = [
 	}
 ];
 
-document.addEventListener('DOMContentLoaded', functin(){
-	//code here
-})
-
-function renderMovies(){
-	
-}
