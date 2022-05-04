@@ -80,3 +80,11 @@ var movieData = [
 			"https://ia.media-imdb.com/images/M/MV5BMTcxNDE1OTgyOF5BMl5BanBnXkFtZTcwMTEyMzMxOQ@@._V1_SX300.jpg"
 	}
 ];
+
+document.addEventListener('DOMContentLoaded', functin(){
+	//code here
+})
+
+function renderMovies(){
+	
+}

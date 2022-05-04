@@ -14,11 +14,22 @@ body {
 	margin-top: 20px;
 }
 
-.movie{
+.movie-container{
+	display: flex;
+	flex-flow: column;
 
 }
 
-.movie-container{
+.movie{
+	display: flex;
 	
 }
 
+.card {
+	display: flex;
+	flex-flow: column;
+}
+
+.row{
+	display: flex;
+}
