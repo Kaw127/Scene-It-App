@@ -12,80 +12,57 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-12 header text-center">
-          <h2 class="display-2">Scene It</h2>
-          <p>Search for movies you want to watch.</p>
-          <p>Save them to your list</p>
-        </div>
+      <div class="row nav-bar">
+			
+        <h3>Scene it</h3>
+        <a href="watchlist.html"> <p class="watchlist-link">Watchlist</p></a>
+      
+    </div>
+    <div class="row">
+      <div class="col-12 header text-center">
+        <h2 class="display-2">Start your watchlist.</h2>
+        <p style="color: white;">Search for movies you want to watch and save them to your list!</p>
       </div>
-      <div class="row">
-        <div class="col-12 search">
-          <form id="search-form">
-            <div class="input-group input-group-lg">
-              <input
-                class="form-control search-bar"
-                placeholder="Search for a movie..."
-              />
-              <button class="btn btn-primary input-group-btn" type="submit">
-                Search
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 results">
-          <div class = "movies-container">
-            
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">2008</p>
-                    <a href="#" class="btn btn-info">Add</a>
-                  </div>
-                </div>
-              </div>
 
-              <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">2008</p>
-                    <a href="#" class="btn btn-info">Add</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-              <br>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">2008</p>
-                    <a href="#" class="btn btn-info">Add</a>
-                  </div>
-                </div>
-              </div>
-              
-            
-              <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="title">Special title treatment</h5>
-                    <p class="card-text">2008</p>
-                    <a href="#" class="btn btn-info">Add</a>
-                  </div>
-                </div>
-              </div>
+    </div>
+    <div class="row search-row">
+      <div class="col-7 search">
+        <form id="search-form">
+          <div class="input-group input-group-lg">
+            <input class="form-control search-bar" placeholder="Search for a movie...">	
+            <button class="btn btn-primary input-group-btn" type="submit">Search</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+
+<div class="row">
+  <div class="col-12 results">
+    <div id="movies-container">
+      
+      <div class="card" style="width: 16rem;">
+        <img class="card-img-top" src="no_image.png" alt="Card image cap">
+          <div class="card-body">
+            <div class="cardtitle-area">
+            <h5 class="movie-title">Movie title</h5>
+            <div class="releasedate-container">
+              <h6>Date</h6>
             </div>
             
           </div>
-        </div>
-      </div>
+          <a href="#"><button class="add-btn">Add</button></a>
+          </div>
+
+
+
+    </div> <!-- closes movie container -->
+          
+
+</div> <!-- closes results container -->
+</div>
+
     </div>
 
     <script
